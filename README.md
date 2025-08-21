@@ -37,12 +37,13 @@ sudo apt install apache2 php libapache2-mod-php -y
 ```
 
 ### 2️⃣ Deploy Project
-Copy the project folder to the Apache web root:
+set the project folder to the Apache web root:
 ```bash
-sudo cp -r hydra-lab /var/www/html/
+cd /var/www/html/
+git clone https://github.com/CodingChatRoom/Hydra-Lab.git
 ```
 
-### 3️⃣ Set Permissions
+### 3️⃣ Set Permissions (optionl)
 Configure ownership and permissions for security:
 ```bash
 sudo chown -R www-data:www-data /var/www/html/hydra-lab
