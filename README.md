@@ -96,7 +96,7 @@ hydra -L users.txt -P passwords.txt localhost http-post-form "/hydra-lab/login.p
 
 > **Tip**: Create `users.txt` and `passwords.txt` with the demo credentials above to test Hydra successfully.
 
-> **Watch Demo**: You can also watch demo for its learning from here 👉: [HYDRA in 1 Video](https://www.youtube.com/@CodingChatRoom)
+> **Watch Demo**: You can also watch demo for its learning from here 👉: [HYDRA in 1 Video](https://youtu.be/Nd9rd4fwgVY?si=cYzVjvehbKc3bivU)
 
 ---
 
